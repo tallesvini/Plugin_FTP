@@ -1,0 +1,47 @@
+# Arquivos de compilação
+bin/
+obj/
+
+# Arquivos de publicação
+Publish/
+
+# Arquivos de log e depuração
+*.log
+*.exe
+*.pdb
+*.user
+
+# Chave secreta de desenvolvimento
+secrets.json
+
+# Dependências e pacotes NuGet
+## Inclui diretórios específicos de pacotes NuGet
+packages/
+## Inclui o arquivo de cache NuGet
+*.nuget.cache
+
+# Arquivos de projeto
+*.userprefs
+*.vs
+*.suo
+*.csproj.user
+*.vcxproj.user
+*.sln.docstates
+
+# Ferramentas de desenvolvimento
+_ReSharper*/
+*.rptproj.user
+*.rptproj.vspscc
+
+# Diretórios de saída de build
+out/
+
+# Arquivos temporários
+**/*.tmp
+**/*.bak
+**/*.swp
+**/*.swo
+**/*.DS_Store
+**/Thumbs.db
+
+.vs
